@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style-proyectotradingmemo.css">
+
+    <script src="https://kit.fontawesome.com/e3ec59b5bc.js" crossorigin="anonymous"></script>
+    <script src="miscript.js"></script>
+    <title>TradingMemo | Inicio</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js"></script>
+
+    
+
+
+
+</head>
+<body>
+    <div class="container">
+        
+        <div class="container-logomenu">
+            
+            <div class="sub-container">
+                
+                <div class="logo">
+                    <img src="LOGO BLANCO BIEN.png" alt="" width="120px">
+                    <a href="">Trading <span>Memo</span></a>
+                </div>
+                <nav class="menu">
+                        <ul>
+                            <li><a href="">Inicio</a></li>
+                            <li><a href="">Inversión</a></li>
+                            <li><a href="">Empresa</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                </nav>
+            </div>
+
+            <!-- <div class="container-login">
+                <a href="" class="button-login">
+                    
+                    Iniciar Sesión</a>
+            </div> -->
+            <div class="adelante" id="access">
+              
+                <input type="checkbox" id="button" class="login">
+            <label for="button" >Iniciar Sesion</label>
+                <div class="modal">
+                    
+                    <!-- <div class="content">Texto de Prueba</div> -->
+                    <div class="container-form">
+                        <div class="logo">
+                            <img src="LOGO BLANCO BIEN.png" alt="" width="120px">
+                            <a href="">Trading <span>Memo</span></a>
+                        </div>
+                        <p class="texto">Iniciar sesión</p>
+                        <form action="#" id="login-form" method="post" role="form">
+                            <div class="container-inputusuario"> 
+                                <div>
+                                    <i class="fa fa-user"></i>
+                                </div>      
+                                <div>
+                                    <input id="email" type="email" placeholder="Email">
+
+                                </div>
+                            </div>
+                            <div class="container-inputcontraseña">
+                                <div>
+                                    <i class="fas fa-lock"></i>
+
+                                </div>
+                                <div>
+                                    <input type="password" placeholder="Contraseña" id="showpw" >
+                                    <i class="fas fa-eye" onclick="showpw()" id="activador"></i>
+                                    <!-- <button onclick="showpw">hola</button> -->
+
+                                </div>
+                                
+                            </div>
+                            <div>
+                                <input type="button" name="login-submit" id="login-submit" tabindex="4" value="Ingresar"
+                                  onclick="login()">
+                              </div>
+                        </form>
+
+                        <!-- <form id="register-form" action="#" method="post" role="form" >
+                            <div class="form-group">
+                              <input type="email" name="email" id="email-new" tabindex="1" class="form-control" placeholder="Correo electrónico">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" name="password" id="password-new" tabindex="2" class="form-control" placeholder="Contraseña">
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                  <input type="button" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Registrar"
+                                    onclick="createUser()">
+                                </div>
+                            </div>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        
+
+        <div class="portada">
+            <img src="lapton and bitcoin.png" alt="">
+        </div>
+
+        <div class="container-presentation">
+            <div class="titulo1">
+                <h1>Bienvenidos a <b>Trading<span class="estilo-ter"> Memo</span></b></h1>
+            </div>
+            <div class="titulo2">
+                <h2>" Si no Cambia lo que está haciendo Hoy, Todos sus mañanas se veran como ayer. "</h2>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="intro">
+
+    </div>
+    
+    <script src="app.js">
+    </script>
+
+</body>
+</html>
